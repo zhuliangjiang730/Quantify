@@ -6,42 +6,16 @@
 
   <groupId>com.zlj.study</groupId>
   <artifactId>quantify</artifactId>
-  <packaging>pom</packaging>
   <version>1.0.0</version>
-  <modules>
-    <module>market-quotes</module>
-    <module>quantify-commons</module>
-  </modules>
 
   <name>quantify</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <junit-version>4.12</junit-version>
-    <lombok-version>1.18.12</lombok-version>
   </properties>
+  <dependencies>
 
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>${junit-version}</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
-        <version>${lombok-version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.zlj.study</groupId>
-        <artifactId>quantify-commons</artifactId>
-        <version>1.0.0</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-
+  </dependencies>
 
 </project>
