@@ -22,7 +22,10 @@
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.zlj.study</groupId>
+            <artifactId>quantify-commons</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
